@@ -4,8 +4,6 @@ def rename_assets(search_pattern, replace_pattern):
     editor_util = unreal.EditorUtilityLibrary()
     string_library = unreal.StringLibrary()
 
-
-
     #Get assets
     selected_assests = editor_util.get_selected_assets()
     num_assets = len(selected_assests)
