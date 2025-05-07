@@ -4,6 +4,7 @@ import sys
 import argparse
 
 # ===CONFIG===
+#python cook_and_package_buildings.py --project-root "C:\Path\To\My\UPROJECT_NAME" --uproject "UPROJECT_NAME"
 parser = argparse.ArgumentParser(description="Cook and package building assets.")
 parser.add_argument("--project-root", required=True, help="Full path to the Unreal project root directory.")
 parser.add_argument("--uproject", required=True, help="Name of the .uproject file (with or without .uproject extension).")
